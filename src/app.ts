@@ -19,7 +19,7 @@ restoreState();
 
 function createUI() {
   new NavigationView({left: 0, top: 0, right: 0, bottom: 0}).append(
-    new Page({title: 'Tabris for RAP'}).append(
+    new Page({title: 'Rapide Test Utility'}).append(
       urlInput = new TextInput({
         message: 'Rapide server URL',
         text: 'http://19.150.50.33/demop',
