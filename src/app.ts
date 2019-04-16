@@ -21,8 +21,8 @@ function createUI() {
   new NavigationView({left: 0, top: 0, right: 0, bottom: 0}).append(
     new Page({title: 'Tabris for RAP'}).append(
       urlInput = new TextInput({
-        message: 'RAP server URL',
-        text: 'http://tabris.eclipsesource.com/3.6/ui',
+        message: 'Rapide server URL',
+        text: 'http://19.150.50.33/demop',
         top: 24, left: 16, right: 16,
         font: '16px'
       }).on({
